@@ -5,9 +5,9 @@ int balance = 0;
 void initAccount(Account* account, int playerjob) {
     // 직업에 따라 계좌 초기화
     if (playerjob == 1)
-        balance = 50000;
-    else if (playerjob == 2)
         balance = 100000;
+    else if (playerjob == 2)
+        balance = 300000;
 
     account->account = balance;
 
