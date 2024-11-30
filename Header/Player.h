@@ -6,13 +6,15 @@
 #include<stdlib.h>
 
 //게임 진행상황 변수
-extern int time;
+extern int progress;
 
 // 플레이어 정보 구조체
 typedef struct Player{
     char name[10];
     int job;
     int difficulty;
+
+
 } Player;
 
 // 자본과 인벤토리 구조체
