@@ -2,7 +2,7 @@
 #include <string.h>
 #include "Player.h"
 #include "ClearScreen.h"
-int time = 0;
+int progress = 0;
 
 Player setPlayer() {
     Player player;

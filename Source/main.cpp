@@ -16,7 +16,9 @@ int main() {
     // 화면 초기화 및 고정 정보 출력
     modifiedClearScreen(player, account.account);
 
-    checkTime(time);
+    checkTime(progress);
+
+
 
     getchar();
     return 0;
