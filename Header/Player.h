@@ -18,12 +18,12 @@ typedef struct Player{
 } Player;
 
 // 자본과 인벤토리 구조체
-typedef struct {
+typedef struct Account {
     int account;
     char inventory[2][5][20];
 }Account;
 
 Player setPlayer(); //플레이어 초기화
-void initAccount(Account* account, int initialBalance); //초기 자본 설정
+Account initAccount(int playerJob); //초기 자본 설정
 
 #endif

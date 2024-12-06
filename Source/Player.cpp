@@ -9,6 +9,7 @@ Player setPlayer() {
     char confirm='n';
 
     while (confirm == 'n' || confirm == 'N'){
+        originalClearScreen();
         // name ют╥б
         printf("Enter name: ");
         fgets(player.name, sizeof(player.name), stdin);

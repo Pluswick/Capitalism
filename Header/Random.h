@@ -5,5 +5,6 @@
 
 // 난수 생성 함수 선언
 int getRandomValue(const Player* player);
+void initRandom();
 
 #endif
