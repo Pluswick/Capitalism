@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+
 #include "Player.h"
 #include "ClearScreen.h"
+
 int progress = 0;
 
 Player setPlayer() {
@@ -9,7 +11,6 @@ Player setPlayer() {
     char confirm='n';
 
     while (confirm == 'n' || confirm == 'N'){
-        originalClearScreen();
         // name ют╥б
         printf("Enter name: ");
         fgets(player.name, sizeof(player.name), stdin);

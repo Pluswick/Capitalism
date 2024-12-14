@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #include "ClearScreen.h"
 #include "Player.h"
 
@@ -12,7 +13,7 @@ void originalClearScreen() {
 #endif
 }
 
-// 화면 초기화 및 Player 기본 정보 출력 함수
+// 화면 초기화 및 Player 정보 출력 함수
 void modifiedClearScreen(struct Player player, int balance) {
     originalClearScreen(); // 먼저 화면 초기화
 

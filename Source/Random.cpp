@@ -3,6 +3,8 @@
 
 #include "Random.h"
 
+int randomValue = 0;
+
 // 난수 생성 함수 정의
 int getRandomValue(const Player* player) {
     int range;
@@ -24,7 +26,7 @@ int getRandomValue(const Player* player) {
     }
 
     // 난수 생성 (0부터 range-1까지)
-    return rand() % range;
+    return (rand() % range);
 }
 
 // 초기화 함수 (main.c에서 호출)

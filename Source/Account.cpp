@@ -13,13 +13,13 @@ Account initAccount(int playerjob) {
     account.account = balance;
 
     // 1행 초기화 (0으로 설정)(ASCII code 48)
-    for (int i = 0; i < 5; i++) {
-        strcpy_s(account.inventory[0][i], "0");
+    for (int i = 0; i < COLUMNS; i++) {
+        strcpy_s(account.inventory[0][i], MAX_LENGTH, "0");
     }
 
-    // 2행 초기화 (문자열로 설정)
-    for (int i = 0; i < 5; i++) {
-        sprintf_s(account.inventory[1][i], "Item%d", i);
+    // 2행 초기화
+    for (int i = 0; i < COLUMNS; i++) {
+        sprintf_s(account.inventory[1][i], MAX_LENGTH, "Couple%d", i); //Couple1:Red, Couple2:Blue, Couple3:Green, Couple4:Black 
     }
 
     return account;

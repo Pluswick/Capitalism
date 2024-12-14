@@ -3,10 +3,11 @@
 
 extern char narration[];
 
-int checkTime();
+int checkTimeH();
+int checkTimeU();
 
-void HRandomEvent(struct Player player, struct Account account, int randomValue);
+int HRandomEvent(struct Player player, struct Account account);
 
-void URandomEvent(struct Player player, struct Account account, int randomValue);
+int URandomEvent(struct Player player, struct Account account);
 
 #endif 
