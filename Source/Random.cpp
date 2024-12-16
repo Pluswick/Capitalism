@@ -15,7 +15,7 @@ int getRandomValue(const Player* player) {
         range = 100;
         break;
     case 2:
-        range = 80;
+        range = 85;
         break;
     case 3:
         range = 65;

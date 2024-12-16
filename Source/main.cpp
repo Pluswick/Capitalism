@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "Player.h"
 #include "ClearScreen.h"
@@ -39,9 +40,9 @@ int main() {
         }
 
         //21번째 이벤트가 끝난 이후 엔딩 -> 추후 엔딩 관련 함수 추가해서 멀티 엔딩으로 수정
-        if (progress == 21)
+        if (progress == 21 || account.account <= 0)
         {
-            printf("The End\n"); //함수로 수정
+            printf("Game Over!\n"); //함수로 수정
             
             break;
         }

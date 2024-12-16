@@ -12,15 +12,20 @@ Account initAccount(int playerjob) {
 
     account.account = balance;
 
-    // 1행 초기화 (0으로 설정)(ASCII code 48)
+    // 1행 초기화 (0으로 설정)
     for (int i = 0; i < COLUMNS; i++) {
-        strcpy_s(account.inventory[0][i], MAX_LENGTH, "0");
+        account.inventory[0][i] = 0;
     }
 
     // 2행 초기화
     for (int i = 0; i < COLUMNS; i++) {
-        sprintf_s(account.inventory[1][i], MAX_LENGTH, "Couple%d", i); //Couple1:Red, Couple2:Blue, Couple3:Green, Couple4:Black 
+        account.inventory[1][i] = i; //0:Red, 1:Blue, 2:Green, 3:Black 
     }
 
     return account;
+}
+
+int addAffect(Account* account, int color, int affect) {
+    account->inventory[0][color] += affect; // 포인터로 접근 시 -> 사용
+    return account->inventory[0][color];    // 변경된 값을 반환 (예시)
 }

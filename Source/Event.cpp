@@ -22,7 +22,7 @@ int checkTimeH() {
             "계좌 잔액이 0이하가 되면 게임이 종료됩니다.\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration, 25); // 50ms 딜레이
+        typewriterEffect(narration); // 50ms 딜레이
         printf("\n");
         printf("Enter 키를 눌러 진행하세요");
         getchar();
@@ -33,12 +33,13 @@ int checkTimeH() {
         //Day1 오전 고등학생 고정 스토리
         strcpy_s(narration, sizeof(narration),
             "등굣길에 웬 리무진이 선다.\n"
-            "리무진에서 웬 빨간 머리, 파란 머리, 초록 머리, 검은 머리를 한 남(여)학생들이 내린다.\n"
-            "여(남)학생들의 수군거리는 소리가 들린다.\n저 머리들이 선도부에 걸리는지 궁금해 계속 쳐다보다 눈이 마주쳤다.\n\n"
-            "잘생겼다(예쁘다)...\n");
+            "리무진에서 웬 빨간 머리, 파란 머리, 초록 머리, 검은 머리를 한 학생들이 내린다.\n"
+            "전교생의 수군거리는 소리가 들린다.\n"
+            "저 머리들이 선도부에 걸리는지 궁금해 계속 쳐다보다 눈이 마주쳤다.\n\n"
+            "아름답다...\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration, 25); // 50ms 딜레이
+        typewriterEffect(narration); // 50ms 딜레이
         printf("\n");
         printf("Enter 키를 눌러 진행하세요");
         getchar();
@@ -57,7 +58,7 @@ int checkTimeH() {
             "이건 아니야 - !!!\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration, 25); // 50ms 딜레이
+        typewriterEffect(narration); // 50ms 딜레이
         printf("\n");
         printf("Enter 키를 눌러 진행하세요");
         getchar();
@@ -77,7 +78,7 @@ int checkTimeU() {
             "계좌 잔액이 0이하가 되면 게임이 종료됩니다.\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration, 25); // 50ms 딜레이
+        typewriterEffect(narration); // 50ms 딜레이
         printf("\n");
         printf("Enter 키를 눌러 진행하세요");
         getchar();
@@ -91,7 +92,7 @@ int checkTimeU() {
             "암튼 그게 중요한게 아니라 지금 8시 59분이잖아!!!\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration, 25); // 50ms 딜레이
+        typewriterEffect(narration); // 50ms 딜레이
         printf("\n");
         printf("Enter 키를 눌러 진행하세요");
         getchar();
@@ -110,7 +111,7 @@ int checkTimeU() {
             "어디선가 시선이 느껴지는데..?\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration, 25); // 50ms 딜레이
+        typewriterEffect(narration); // 50ms 딜레이
         printf("\n");
         printf("Enter 키를 눌러 진행하세요");
         getchar();

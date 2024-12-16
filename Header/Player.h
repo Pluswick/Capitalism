@@ -1,9 +1,9 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#define ROWS 2      // 첫 번째 차원 크기
-#define COLUMNS 4   // 두 번째 차원 크기
-#define MAX_LENGTH 20 // 문자열 최대 길이
+#define ROWS 2      // 행 크기
+#define COLUMNS 4   // 열 크기
+#define MAX_LENGTH 20
 
 #include<stdio.h>
 #include<string.h>
@@ -22,10 +22,11 @@ typedef struct Player{
 // 자본과 인벤토리 구조체
 typedef struct Account {
     int account;
-    char inventory[ROWS][COLUMNS][MAX_LENGTH];
+    int inventory[ROWS][COLUMNS];
 }Account;
 
 Player setPlayer(); //플레이어 초기화
 Account initAccount(int playerJob); //초기 자본 설정
+int addAffect(Account* account, int color, int affect);
 
 #endif

@@ -49,6 +49,34 @@ void modifiedClearScreen(struct Player player, int balance) {
         break;
     }
 
-    printf("Balance: %d\n\n", balance);
+    printf("Balance: %d\n", balance);
+
+    //현재 진행상황 출력
+    if (progress > 0 && progress < 21)
+    {
+        int day = (progress - 1) / 3 + 1;
+        printf("Day%d's ", day);
+
+        // 시간대 구분
+        switch (progress % 3) {
+        case 1:
+            printf("day\n\n");
+            break;
+        case 2:
+            printf("afternoon\n\n");
+            break;
+        case 0:
+            printf("night\n\n");
+            break;
+        default:
+            printf("Invalid time\n프로그램을 재실행 해주세요.\n");
+            exit(1); // 프로그램 즉시 중단
+        }
+    }
+    else if (progress < 0 || progress > 21)
+    {
+        printf("Invalid progress value\n프로그램을 재실행 해주세요.\n");
+        exit(1); // 프로그램 즉시 중단
+    }
 
 }
