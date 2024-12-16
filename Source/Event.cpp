@@ -8,6 +8,10 @@
 
 char narration[10001];
 
+int dRepeat[9] = { 0, };
+int aRepeat[9] = { 0, };
+int nRepeat[9] = { 0, };
+
 int checkTimeH() {
     if (progress == 0) {
         // 최초 게임 설명
@@ -23,10 +27,8 @@ int checkTimeH() {
         printf("Enter 키를 눌러 진행하세요");
         getchar();
         originalClearScreen();
-    }
 
-    else if (progress == 1)
-    {
+
         originalClearScreen();
         //Day1 오전 고등학생 고정 스토리
         strcpy_s(narration, sizeof(narration),
@@ -40,10 +42,10 @@ int checkTimeH() {
         printf("\n");
         printf("Enter 키를 눌러 진행하세요");
         getchar();
-
     }
+    
 
-    else if (progress == 2) 
+    else if (progress == 1) 
     {
         originalClearScreen();
         //Day1 오후 고등학생 고정 스토리
@@ -80,11 +82,7 @@ int checkTimeU() {
         printf("Enter 키를 눌러 진행하세요");
         getchar();
         originalClearScreen();
-    }
-
-    else if (progress == 1)
-    {
-        originalClearScreen();
+        
         //Day1 오전 대학생 고정 스토리
         strcpy_s(narration, sizeof(narration),
             "오늘도 사람이 가득찬 버스를 타고 불쾌한 아침을 맞이한다.\n"
@@ -100,7 +98,7 @@ int checkTimeU() {
 
     }
 
-    else if (progress == 2)
+    else if (progress == 1)
     {
         originalClearScreen();
         //Day1 오후 고정 스토리

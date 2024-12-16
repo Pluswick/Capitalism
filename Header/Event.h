@@ -3,6 +3,10 @@
 
 extern char narration[];
 
+extern int dRepeat[9];
+extern int aRepeat[9];
+extern int nRepeat[9];
+
 int checkTimeH();
 int checkTimeU();
 
