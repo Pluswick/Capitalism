@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-
-#include "Player.h"
 #include "ClearScreen.h"
 
 int progress = 0;

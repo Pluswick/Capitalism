@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 #include "ClearScreen.h"
-#include "Player.h"
 
 // 화면 초기화 함수 (기본 버전)
 void originalClearScreen() {
@@ -52,7 +48,7 @@ void modifiedClearScreen(struct Player player, int balance) {
     printf("Balance: %d\n", balance);
 
     //현재 진행상황 출력
-    if (progress > 0 && progress < 21)
+    if (0 < progress &&progress < 21)
     {
         int day = (progress - 1) / 3 + 1;
         printf("Day%d's ", day);

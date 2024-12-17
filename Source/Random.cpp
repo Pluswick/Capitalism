@@ -1,6 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
-
 #include "Random.h"
 
 int randomValue = 0;

@@ -1,12 +1,13 @@
 #include<stdio.h>
-#include <windows.h> // Sleep 함수 사용
+#include<windows.h> // Sleep 함수 사용
 
 #include"TypingEffect.h"
 
-void typewriterEffect(const char* text) {
-    for (const char* p = text; *p != '\0'; ++p) {
-        printf("%c", *p);    // 한 글자씩 출력
-        fflush(stdout);      // 출력 버퍼를 즉시 플러시
+void typewriterEffect(const char* str) 
+{
+    while (*str) {
+        putchar(*str++);  // 한 글자씩 출력
+        fflush(stdout);   // 출력 버퍼 비우기
         Sleep(DELAY);        // 밀리초 단위 지연
     }
 }
