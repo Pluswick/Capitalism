@@ -1,6 +1,7 @@
 #ifndef RAND_H
 #define RAND_H
 
+#include <time.h>
 #include "Player.h" // Player 구조체를 사용하기 위해 포함
 
 extern int randomValue;

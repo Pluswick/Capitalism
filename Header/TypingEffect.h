@@ -1,7 +1,7 @@
 #ifndef TYPEWRITER_EFFECT_H
 #define TYPEWRITER_EFFECT_H
 
-#define DELAY 25
+#define DELAY 20
 
 // 타자기 효과 함수 선언
 void typewriterEffect(const char* text);

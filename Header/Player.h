@@ -22,7 +22,7 @@ typedef struct Player{
 // 자본과 인벤토리 구조체
 typedef struct Account {
     int account;
-    int inventory[ROWS][COLUMNS];
+    int lover[ROWS][COLUMNS];
 }Account;
 
 Player setPlayer(); //플레이어 초기화
