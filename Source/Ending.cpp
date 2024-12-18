@@ -64,7 +64,7 @@ int endingChoice(Player* player)
             "(고백할 대상을 번호로 선택해주세요: 1.빨강 2.파랑 3.초록 4.검정)\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration); // 50ms 딜레이
+        typewriterEffect(narration); // 타자기 효과
         printf("\n");
 
         // 메모리 해제
@@ -92,7 +92,7 @@ int endingChoice(Player* player)
             "(고백할 대상을 번호로 선택해주세요: 1.빨강 2.파랑 3.초록 4.검정)\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration); // 50ms 딜레이
+        typewriterEffect(narration); // 타자기 효과
         printf("\n");
 
         // 메모리 해제
@@ -116,42 +116,42 @@ int endingChoice(Player* player)
 
         switch (choice)
         {
-        case '1':
+        case 1:
             strcpy_s(narration, buffer_size,
                 "장난스럽고 활발한 빨간 머리 같은 사람이 좋다.\n"
                 "빨간 머리에게 내 마음을 고백하자.\n"
             );
-            typewriterEffect(narration); // 25ms 딜레이
+            typewriterEffect(narration); // 타자기 효과
             printf("\n");
 
             break;
 
-        case '2':
+        case 2:
             strcpy_s(narration, buffer_size,
                 "차갑기만 할 것 같던 파란 머리가 점점 따듯하게 반응하는 모습이 좋아졌다.\n"
                 "파란 머리에게 내 마음을 고백하자.\n"
             );
-            typewriterEffect(narration); // 50ms 딜레이
+            typewriterEffect(narration); // 타자기 효과
             printf("\n");
 
             break;
 
-        case '3':
+        case 3:
             strcpy_s(narration, buffer_size,
                 "요정같고 신비로운 분위기의 초록 머리에게 점점 빠져들었다.\n"
                 "초록 머리에게 내 마음을 고백하자.\n"
             );
-            typewriterEffect(narration); // 50ms 딜레이
+            typewriterEffect(narration); // 타자기 효과
             printf("\n");
 
             break;
 
-        case '4':
+        case 4:
             strcpy_s(narration, buffer_size,
                 "비밀에 감싸인 검은 머리가 나에게 다가오면서 점점 더 궁금해지고 마음에 들어왔다.\n"
                 "검은 머리에게 내 마음을 고백하자.\n"
             );
-            typewriterEffect(narration); // 50ms 딜레이
+            typewriterEffect(narration); // 타자기 효과
             printf("\n");
 
             break;

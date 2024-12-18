@@ -33,7 +33,7 @@ int checkTimeH()
             "계좌 잔액이 0이하가 되면 게임이 종료됩니다.\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration); // 50ms 딜레이
+        typewriterEffect(narration); // 타자기 효과
         printf("\n");
         printf("Enter 키를 눌러 진행하세요");
 
@@ -49,7 +49,7 @@ int checkTimeH()
             "아름답다...\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration); // 50ms 딜레이
+        typewriterEffect(narration); // 타자기 효과
         printf("\n");
 
         break;
@@ -67,7 +67,7 @@ int checkTimeH()
             "이건 아니야 - !!!\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration); // 50ms 딜레이
+        typewriterEffect(narration); // 타자기 효과
         printf("\n");
 
         break;
@@ -86,7 +86,7 @@ int checkTimeH()
             "(앞으로의 이벤트는 호감도에 영향을 끼칩니다. 신중히 선택해서 마음에 드는 결말에 다가가보세요!)\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration); // 50ms 딜레이
+        typewriterEffect(narration); // 타자기 효과
         printf("\n");
 
         break;
@@ -134,7 +134,7 @@ int checkTimeU() {
             "계좌 잔액이 0이하가 되면 게임이 종료됩니다.\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration); // 50ms 딜레이
+        typewriterEffect(narration); // 타자기 효과
         printf("\n");
         printf("Enter 키를 눌러 진행하세요");
        
@@ -149,7 +149,7 @@ int checkTimeU() {
             "암튼 그게 중요한게 아니라 지금 8시 59분이잖아!!!\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration); // 50ms 딜레이
+        typewriterEffect(narration); // 타자기 효과
         printf("\n");
 
         break;
@@ -167,7 +167,7 @@ int checkTimeU() {
             "어디선가 시선이 느껴지는데..?\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration); // 50ms 딜레이
+        typewriterEffect(narration); // 타자기 효과
         printf("\n");
 
         break;
@@ -186,7 +186,7 @@ int checkTimeU() {
             "(앞으로의 이벤트는 호감도에 영향을 끼칩니다. 신중히 선택해서 마음에 드는 결말에 다가가보세요!)\n");
 
         // 타자기 효과 출력
-        typewriterEffect(narration); // 50ms 딜레이
+        typewriterEffect(narration); // 타자기 효과
         printf("\n");
 
         break;

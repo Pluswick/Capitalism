@@ -46,7 +46,7 @@ reroll:
                 "얘랑 싸워서 이기면 내가 서열32위인데…\n"
                 "(나는 서열 103위다.)\n\n"
                 "결투를 신청할까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -98,7 +98,7 @@ reroll:
             strcpy_s(text, buffer_size,
                 "등굣길에 차도 건너편에서 나와 친한 친구들을 발견했다.\n\n"
                 "뛰어가서 친구들과 같이 등교할까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -112,7 +112,7 @@ reroll:
                 case 'n':
                     strcpy_s(text, buffer_size,
                         "차도에 차가 많아 그냥 혼자 가기로 했다.\n");
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = 0; //선택지에 따른 손익
                     break;
@@ -121,7 +121,7 @@ reroll:
                 case 'Y':
                     strcpy_s(text, buffer_size,
                         "뛰어가다 차에 치이고 말았다… \n");
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = -30000; //선택지에 따른 손익
                     break;
                 default:
@@ -144,7 +144,7 @@ reroll:
                 "처음으로 일찍 일어나서 신나게 아침을 먹었는데\n"
                 "너무 많이 먹어 배탈이 났다.\n\n"
                 "택시를 탈까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -158,7 +158,7 @@ reroll:
                 case 'Y':
                     strcpy_s(text, buffer_size,
                         "지각을 할 것 같아 택시를 탔다.\n");
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = -10000; //선택지에 따른 손익
                     break;
@@ -168,7 +168,7 @@ reroll:
                     strcpy_s(text, buffer_size,
                         "돈이 없어 택시를 안 타기로 결정했다.\n"
                         "조금이라도 아껴야지...\n");
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     break;
                 default:
@@ -192,7 +192,7 @@ reroll:
                 "지각을 하는 날에는 항상 아침을 먹지 못해 배가 고프다.\n"
                 "집 앞엔 GS25가 있고 삼각김밥이 완벽하게 채워져 있다.\n\n"
                 "편의점을 들를까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -207,7 +207,7 @@ reroll:
                     strcpy_s(text, buffer_size,
                         "삼각김밥만 사려했지만\n"
                         "너무 배가 고파 많이 사버렸다...\n");
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = -10000; //선택지에 따른 손익
                     break;
@@ -217,7 +217,7 @@ reroll:
                     strcpy_s(text, buffer_size,
                         "배고프지만 돈이 없으니 그냥 등교하기로 한다.\n"
                         "비틀비틀 걸어간다.\n");
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     break;
                 default:
@@ -250,7 +250,7 @@ reroll:
                 "체육복이 엉망진창으로 찢어져 있다.\n"
                 "전교 1등인 나를 질투하는 애들이 한 것 같다.\n\n"
                 "친구에게 체육복을 빌릴까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -273,7 +273,7 @@ reroll:
                         "“응… 미안해. 여기 체육복 수선비…”\n\n"
                         "“와”\n"
                         "빨간 머리는 그대로 뒤돌아 가버렸다.\n");
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = -20000; //선택지에 따른 손익
                     break;
@@ -290,7 +290,7 @@ reroll:
                         "“사이즈가 작을 것 같은데…”\n\n"
                         "“내 생각엔… 괜찮을 것 같아”\n\n"
                         "빨간 머리는 솔직한 편인 것 같다.\n");
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     break;
                 default:
@@ -313,7 +313,7 @@ reroll:
                 "어제 밤을 샜더니 너무 졸리다.\n"
                 "안 자면 죽을 것 같다.\n\n"
                 "잠시만 눈을 감을까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -343,7 +343,7 @@ reroll:
                         "그런데 파란머리가 나에게 비타500을 주고 갔다.\n\n"
                         "“헤드뱅잉 심하더라...” \n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = 0; //선택지에 따른 손익
                     break;
@@ -354,7 +354,7 @@ reroll:
                         "그래도 전교 1등의 자존심을 지켜야 한다!\n"
                         "커피를 사 마시고 자지 않으려고 노력했다.\n"
                     );
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = -10000; //선택지에 따른 손익
                     break;
                 default:
@@ -378,7 +378,7 @@ reroll:
                 "의심스럽지만 너무 맛있어 보인다.\n\n"
                 "음료수를 먹을까?\n"
             );
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -399,7 +399,7 @@ reroll:
                         "“뭐?”\n\n"
                         "“고구마”\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = -20000; //선택지에 따른 손익
                     break;
@@ -412,7 +412,7 @@ reroll:
                         "옆에 있는 빨간 머리가 음료수를 뺏어 마셨다.\n"
                         "빨간 머리는 다음 교시부터 보이지 않았다...\n"
                     );
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     break;
                 default:
@@ -435,7 +435,7 @@ reroll:
                 "배가 부르니 식곤증이 몰려온다.\n\n"
                 "잠도 깰 겸 운동장으로 산책을 갈까?\n"
             );
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -452,7 +452,7 @@ reroll:
                         "만원을 줍고 돌아오는데 검은 머리와 마주쳤다.\n"
                         "검은 머리는 뭔가를 찾고 있는 듯했다.\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = 10000; //선택지에 따른 손익
                     break;
@@ -465,7 +465,7 @@ reroll:
                         "에어컨을 켰나 보려고 고개를 드니 옆에 검은 머리가 있다.\n"
                         "검은 머리는 차가운 표정과 차가운 눈빛으로 날 보고 있었다...\n"
                     );
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     break;
                 default:
@@ -498,7 +498,7 @@ reroll:
                 "독서실을 가서 공부해 부모님께 효도해야겠다.\n\n"
                 "비싼 독서실이 공부도 잘 되겠지? 비싼 독서실로 가야겠다!\n"
             );
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
             profit = -20000;
         }
@@ -514,7 +514,7 @@ reroll:
                 "친구가 학교 끝나고 저녁을 사준다고 한다.\n\n"
                 "따라갈까?\n"
             );
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -531,7 +531,7 @@ reroll:
                         "밥 사준다는 친구를 따라 굴다리로 들어가니\n"
                         "일진들이 나를 둘러쌌다…\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = -20000; //선택지에 따른 손익
                     break;
@@ -542,7 +542,7 @@ reroll:
                         "공짜 좋아하면 대머리 된다고 누가 그랬다.\n"
                         "그냥 집에 가서 공부를 해야겠다.\n"
                     );
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     break;
                 default:
@@ -564,7 +564,7 @@ reroll:
                 "야자 시간에 학교를 탈출하는 초록 머리와 빨간 머리를 발견했다.\n\n"
                 "반장으로서 말려야 할까?\n"
             );
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -581,7 +581,7 @@ reroll:
                         "하지만 둘은 지갑을 놓고 왔다며\n"
                         "나에게 만원을 빌리고 탈출해버렸다.\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = -10000; //선택지에 따른 손익
                     break;
@@ -590,7 +590,7 @@ reroll:
                 case 'N':
                     strcpy_s(text, buffer_size,
                         "그냥 교실에서 공부나 해야겠다.\n");
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     break;
                 default:
@@ -611,7 +611,7 @@ reroll:
                 "다른 알바생이 대타를 부탁한다.\n"
                 "돈을 벌까 열심히 공부를 해서 부모님께 효도할까?\n\n"
                 "알바를 할까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -627,7 +627,7 @@ reroll:
                         "알바를 하기로 한다.\n"
                         "부모님도 이걸 바라실 거야.\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = +20000; //선택지에 따른 손익
                     break;
@@ -636,7 +636,7 @@ reroll:
                 case 'N':
                     strcpy_s(text, buffer_size,
                         "그냥 스터디카페 가서 공부를 해야겠다.\n");
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = -10000; //선택지에 따른 손익
                     break;
                 default:
@@ -668,7 +668,7 @@ reroll:
                 "검정 머리 전학생을 발견했다.\n"
                 "검정 머리는 길을 잃어버린 것 같다.\n\n"
                 "길을 찾아줄까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -731,7 +731,7 @@ reroll:
                 "등굣길에 길에 떨어진 명품 지갑을 발견했다.\n"
                 "경찰서까지 갔다 오면 지각할 것 같은데\n\n"
                 "지갑을 경찰서에 갖다 줄까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -749,7 +749,7 @@ reroll:
                         "수표로 가득했다. 이건 뭐 쓰지도 못할 것 같다.\n"
                         "지갑을 있던 그 자리에 그대로 두고 학교로 향했다.\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = 0; //선택지에 따른 손익
                     break;
@@ -767,7 +767,7 @@ reroll:
                         "“그래! 대신 내가 찾아줬으니까 우리 친하게 지내는거다?”\n"
                         "파란 머리와 친해져야겠다.\n"
                     );
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = +50000; //선택지에 따른 손익
                     affect = 3; //호감도 변동 크기
                     color = 1; //호감도 변동 대상
@@ -793,7 +793,7 @@ reroll:
                 "등굣길에 리무진을 발견했다.\n"
                 "리무진을 가까이서 처음 봐서 신기한데\n\n"
                 "조금 구경할까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -809,7 +809,7 @@ reroll:
                         "리무진 주변을 얼쩡거리다가\n"
                         "나를 못 보고 움직인 리무진에 치여 병원에 갔다.\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = -30000; //선택지에 따른 손익
                     break;
@@ -821,7 +821,7 @@ reroll:
                         "“차 태워줄까?”\n"
                         "안에서 요정이 말을 걸었다. 자세히 보니 초록 머리 전학생이었다.\n\n"
                         "“그래”\n");
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     affect = 2; //호감도 변동 크기
                     color = 2; //호감도 변동 대상
@@ -848,7 +848,7 @@ reroll:
                 "빨간 머리에게서 병원비를 받을까\n"
                 "아니면 너그러운 마음으로 넘어가줄까?\n\n"
                 "병원비를 받을까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -863,7 +863,7 @@ reroll:
                     strcpy_s(text, buffer_size,
                         "돈도 많은 것 같으니 \n"
                         "그냥 병원비를 받기로 했다.\n");
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = 50000; //선택지에 따른 손익
                     affect = -2; //호감도 변동 크기
@@ -876,7 +876,7 @@ reroll:
                     strcpy_s(text, buffer_size,
                         "좀 아픈척하다 괜찮다고 하니\n"
                         "빨간 머리가 감동을 받은 것 같다.\n");
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     affect = 3; //호감도 변동 크기
                     color = 0; //호감도 변동 대상
@@ -902,7 +902,7 @@ reroll:
                 "다시 집으로 가서 챙길까\n"
                 "귀찮으니 그냥 갈까?\n\n"
                 "다시 집으로 갈까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -962,7 +962,7 @@ reroll:
                 "수업 중에 뒤에서 쪽지가 날아온다.\n"
                 "선생님 몰래 읽을까 무시할까?\n\n"
                 "읽어볼까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -1018,7 +1018,7 @@ reroll:
                 "자율적으로 2명씩 팀을 정하는 수업에서\n"
                 "빨간 머리와 파란 머리가 같이 하자고 제안한다.\n\n"
                 "누구와 짝을 할까? 빨간 머리가 재촉한다.\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -1036,7 +1036,7 @@ reroll:
                         "”…뭐야 그 놀란 표정은“\n"
                         "파란 머리는 무뚝뚝한줄 알았더니 고맙다고 표현도 한다.\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = 0; //선택지에 따른 손익
                     affect = 4; //호감도 변동 크기
@@ -1052,7 +1052,7 @@ reroll:
                         "“아 단짝은 싫어. 어색한 사이하자.”\n"
                         "빨간 머리는 좋으면서 계속 장난만 치는 것 같다.\n"
                     );
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     affect = 4; //호감도 변동 크기
                     color = 0; //호감도 변동 대상
@@ -1078,7 +1078,7 @@ reroll:
                 "오늘은 발런타인데이다.\n"
                 "애들이 사천왕에게 줄 초콜릿을 싹쓸이해갔다.\n\n"
                 "그동안 고마웠던 일들도 있었으니 나도 사줄까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -1094,7 +1094,7 @@ reroll:
                         "편의점에 비싼 초콜릿 밖에 남지 않았다…\n"
                         "어쩔 수 없이 삼만원짜리 초콜릿을 사서 줬다.\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = -30000; //선택지에 따른 손익
                     affect = 5; //호감도 변동 크기
@@ -1110,7 +1110,7 @@ reroll:
                     strcpy_s(text, buffer_size,
                         "돈도 없으니 사지 말자.\n"
                         "서운해 하는 표정들이 마음에 걸린다.\n");
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     affect = -2;
                     for (int i = 0; i < 4; i++)
@@ -1140,7 +1140,7 @@ reroll:
                 "오늘따라 메뉴가 심상치 않다.\n\n"
                 "급식을 먹을까?\n"
             );
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -1155,7 +1155,7 @@ reroll:
                     strcpy_s(text, buffer_size,
                         "메뉴가 별로라 매점으로 갔다. \n"
                         "오늘다라 맛있어 보이는게 너무 많다.\n");
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = -15000; //선택지에 따른 손익
                     break;
@@ -1165,7 +1165,7 @@ reroll:
                     strcpy_s(text, buffer_size,
                         "급식을 받아왔는데 얼떨결에 사천왕들이랑 같이 먹게 됐다.\n"
                         "대화를 하면서 먹다 보니 더 친해진 것 같다.\n");
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     affect = 2;
                     for (int i = 0; i < 4; i++)
@@ -1193,7 +1193,7 @@ reroll:
                 "검정머리가 웬일로 점심시간에\n"
                 "반대항 축구를 한다는 소식을 들었다.\n\n"
                 "응원하러 갈까?\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -1256,7 +1256,7 @@ reroll:
                 "학교 끝나고 카페를 갈까 피시방을 갈까 고민하다\n"
                 "정신을 차려 보니 풀코스로 놀고 난 이후였다.\n"
             );
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
             profit = -20000;
         }
@@ -1272,7 +1272,7 @@ reroll:
                 "하굣길에 붕어빵과 떡볶이 포장마차를 발견했다.\n\n"
                 "둘 중 뭘 먹을까?(붕어빵:Y, 떡볶이:N)\n"
             );
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -1289,7 +1289,7 @@ reroll:
                         "우리는 같이 붕어빵을 먹고 놀았다.\n"
                         "꽤나 즐거운 밤이었다.\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = -3000; //선택지에 따른 손익
                     affect = 4; //호감도 변동 크기
@@ -1307,7 +1307,7 @@ reroll:
                         "”2인분이요...”\n\n"
                         "묘한 기류에 휩싸여 떡볶이를 먹었다.\n"
                     );
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = -10000; //선택지에 따른 손익
                     affect = 4; //호감도 변동 크기
                     color = 3; //호감도 변동 대상
@@ -1333,7 +1333,7 @@ reroll:
                 "밤에 음악실 문을 열면 안된다는 소문을 들었는데…\n\n"
                 "열어볼까?"
             );
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -1350,7 +1350,7 @@ reroll:
                         "초록 머리였다.\n"
                         "초록 머리는 나에게 피아노를 가르쳐 주겠다며 나를 피아노로 이끌었다.\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = 0; //선택지에 따른 손익
                     affect = 4; //호감도 변동 크기
@@ -1362,7 +1362,7 @@ reroll:
                 case 'N':
                     strcpy_s(text, buffer_size,
                         "소문이 무서우니 그냥 가야겠다.\n");
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     break;
                 default:
@@ -1384,7 +1384,7 @@ reroll:
                 "야자를 하는데 이어폰이 망가졌다.\n"
                 "양 옆자리에 검은 머리와 파란 머리가 있는데\n\n"
                 "누구에게 이어폰을 빌릴까?(검은머리:Y, 파란머리:N)\n");
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
 
             while (1)
@@ -1400,7 +1400,7 @@ reroll:
                         "검정 머리는 아무 말 없이 나에게 이어폰을 던져줬다.\n"
                         "예전처럼 차가운 눈빛은 아니었다.\n"
                     );
-                    typewriterEffect(text); // 25ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     printf("\n");
                     profit = 0; //선택지에 따른 손익
                     affect = 3; //호감도 변동 크기
@@ -1414,7 +1414,7 @@ reroll:
                         "파란 머리는 한 쪽은 자기가 끼고 한 쪽만 나에게 줬다.\n"
                         "같은 노래를 들으며 공부했다.\n"
                     );
-                    typewriterEffect(text); // 50ms 딜레이
+                    typewriterEffect(text); // 타자기 효과
                     profit = 0; //선택지에 따른 손익
                     affect = 4; //호감도 변동 크기
                     color = 1; //호감도 변동 대상
@@ -1447,7 +1447,7 @@ reroll:
                 "“이걸로 우산 사”\n"
                 "빨간 머리가 5만원권을 주곤 고맙다고 말할 틈도 없이 리무진을 타고 가버렸다.\n"
             );
-            typewriterEffect(text); // 25ms 딜레이
+            typewriterEffect(text); // 타자기 효과
             printf("\n");
             profit = 50000;
         }
